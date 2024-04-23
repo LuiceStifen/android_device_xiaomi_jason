@@ -122,7 +122,7 @@ PRODUCT_SHIPPING_API_LEVEL := 25
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.dual_role_usb
+    android.hardware.usb@1.3-service.basic
 
 # VNDK
 PRODUCT_PACKAGES += \
