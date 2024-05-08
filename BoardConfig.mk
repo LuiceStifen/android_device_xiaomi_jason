@@ -27,6 +27,7 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/jason
 
 # Kernel
+INLINE_KERNEL_BUILDING := true
 TARGET_FORCE_PREBUILT_KERNEL := true
 TARGET_KERNEL_CONFIG := jason_defconfig
 TARGET_KERNEL_LLVM_BINUTILS := false
